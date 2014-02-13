@@ -53,8 +53,10 @@ output:  /opt/chef-server/embedded/bin/pg_dump  etc etc
 /opt/chef-server/embedded/bin/pg_dump    -h localhost  -p 5432 -U opscode_chef  > /tmp/chefserver.sql
  ```
 Default values of chef-server-v11 components are here:
-http://docs.opscode.com/config_rb_chef_server_optional_settings.html
-https://github.com/opscode/omnibus-chef-server/blob/master/files/chef-server-cookbooks/chef-server/attributes/default.rb
+
+* http://docs.opscode.com/config_rb_chef_server_optional_settings.html
+
+* https://github.com/opscode/omnibus-chef-server/blob/master/files/chef-server-cookbooks/chef-server/attributes/default.rb
 
 If hostname, port and database are different then change them here. 
 
