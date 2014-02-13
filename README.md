@@ -1,4 +1,4 @@
 chef-usage
 ==========
 
-Contain opensource-chef learning resources
+Contain opensource chef-server Devop learning resource.
