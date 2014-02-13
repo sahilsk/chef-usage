@@ -165,4 +165,3 @@ It'll pull the latest cookbooks from chef-server and sync the system according t
 ------------
 
 Chef Resources:  http://docs.opscode.com/chef/resources.htmlchef-usage
-==========
