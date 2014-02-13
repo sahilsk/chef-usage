@@ -21,6 +21,13 @@ knife node edit target-node
 ```
 It'll open the node in text editor. Edit the run list and save it.
 
+
+#### Create new client on chef-server with given key and role
+``` bash
+knife client create backup --admin --file "$HOME/.chef/backup.pem"
+```
+It will create new client named "backup" with admin privileges using backup.pem key.
+( Generally we create this user for taking chef-server backup)
 #### Upload to chef-server
 
 ``` bash
